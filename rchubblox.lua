@@ -2,7 +2,7 @@
 -- print("-- [[ Webhook ]] --");
 -- (loadstring(game:HttpGet("https://gitshare.me/backend/api/files/677ec71a-082b-4b8c-a1e8-f590f2ab286a/download")))();
 -- print("--------------------------------------------------------------------------");
-local Update = (loadstring(Game:HttpGet("https://you.whimper.xyz/sources/nox/data/fruitsource.lua")))();
+local Update = (loadstring(Game:HttpGet("https://raw.githubusercontent.com/rcstoreofc20-creator/RCHUBBLOX/refs/heads/main/rchubblox.lua")))();
 if Update:LoadAnimation() then
 	Update:StartLoad();
 end;
@@ -12005,4 +12005,5 @@ for _, v in pairs(resultNormal) do
 		ServTab:Label(tostring(NormalFruitInfo));
 	end;
 end;
+
 print("Script Loaded!");
